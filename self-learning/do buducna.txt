@@ -1,0 +1,12 @@
+vytvorit kluc,
+userdata file
+
+KUBERNETES 
+	- https
+	- firewall - pravidla - Role-Based Access Control (RBAC)
+KUBERNETES ADMINISTRATOR
+	- https://www.youtube.com/watch?v=S8eX0MxfnB4
+	- SELF-MANAGED, MANAGED SERVICE.. Managed Service -> rozdiel medzi AKS(Azure), EKS(Amazon), GKE(Google) -> cloud providers 
+	- NETWORKING: Network Policies, Pod-to-Pod communication, Pod-to-Service communication, k8s network interface, Network Plugins, Cluster DNS service
+	- ACCESS MANAGEMENT: rbac, Role, ClusterRole, RoleBinding, ClusterRoleBinding
+	- OPERATOR
