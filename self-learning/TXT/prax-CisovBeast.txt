@@ -184,10 +184,18 @@ k get all | findstr mosquitto - grep ekvivalent vo windowse
 
 DECODE:
 	- echo -n "secret" | base64 -> linux
+-------------------------------------------------------------------------
+SET UP MORE CLUSTERS IN MINIKUBE
+	- cluster v minikube sa vola profile
+	- minikube start -p [nazov]     # vytvorenie clusteru
+	- minikube profile [nazov]	# prepnutie na iny cluster
+	- minikube profile list		# vypis všetkých clusterov
+	- minikube delete -p [nazov], minikube stop -p [nazov]
 
-
-
-
+MORE NODES IN ONE CLUSTER
+	- minikube start --nodes 2 -p [nazov_clustru]
+	- kubectl get nodes
+	- minikube status -p [nazov_clustru]
 
 
 
